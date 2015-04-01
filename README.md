@@ -7,7 +7,7 @@ Note: [`iplist.txt`](iplist.txt) is from https://github.com/justjavac/Google-IPs
 ### Feature:
 * Test all IPs in "iplist.txt"
 * Analyze most fast IPs
-* Auto update "proxy.ini" if it exists in the same folder. (Automatically backup before updating)
+* Goagent supported and auto update "proxy.ini" if it exists in the same folder. (Automatically backup before updating)
 
 ### Installation:
 1. Copy 4 files ([`file_utils.py`](file_utils.py), [`iplist.txt`](iplist.txt), [`test_connections.py`](test_connections.py), [`update_ips.py`](update_ips.py)) to &lt;go agent home folder>/local/
