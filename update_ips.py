@@ -22,7 +22,6 @@ data = []
 for row in read_data:
     data.append(row)
 Header = data[0]
-data.pop(0)
 
 data.sort(key=lambda r: float(r[1]))
 
